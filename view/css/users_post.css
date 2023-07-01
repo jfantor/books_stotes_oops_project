@@ -1,0 +1,27 @@
+.sidebar__info {
+    width: 300px;
+    left: 2px;
+    top: -3px;
+    position: absolute;
+    margin-left: 122px;
+  }
+  .sidebar__info p {
+    margin-top: 34px;
+    font-size: 17px;
+  }
+  .sidebar__info h3 {
+    margin-bottom: 38px;
+    position: relative;
+    margin-top: -5px;
+    margin-left: -16px;
+    text-transform: capitalize;
+    font-weight: 600;
+  }
+  .my_post_details {
+    margin-left: 10px;
+    margin-top: 7px;
+  }
+  #my_post {
+    padding-right: 40px;
+    padding-left: 29px;
+  }

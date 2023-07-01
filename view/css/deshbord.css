@@ -1,0 +1,208 @@
+
+.des_navigation_bar ul li a {
+  display: inline-block;
+  position: absolute;
+}
+.desh_bord a {
+  margin-top: 25px;
+  text-decoration: none;
+}
+
+.des_navigation_bar ul li {
+  height: 55px;
+  list-style: none;
+  padding-left: 30px;
+  transition: .5s;
+}
+.des_navigation_bar ul li i {
+  -webkit-box-flex: 0;
+  -ms-flex: 0 0 35px;
+  flex: 0 0 35px;
+  font-size: 24px;
+  transition: all .4s ease-in-out;
+  color: #a4a4a4;
+  position: relative;
+  top: 50%;
+  left: 0%;
+  transform: translate(-49%,-50%);
+  padding: 5px 17px;
+  background: white;
+  z-index: 10;
+}
+
+.des_navigation_bar {
+  width: 102px;
+  min-height: 100%;
+  position: fixed;
+  top: 81px;
+  background-color: #fff;
+  box-shadow: 1px 15px 20px rgba(0, 0, 0, 0.08);
+  transition: all 0.3s ease-in-out;
+  z-index: 999;
+  overflow: hidden;
+  left: 0;
+}
+.row.des_section {
+  margin-top: 86px;
+}
+#desbord {
+  background: #f2f2f2;
+  height: 100%;
+  min-height: 100vh;
+}
+
+.des_navigation_bar ul li label {
+  text-align: left;
+  padding: 0 0 0 5px;
+  line-height: 24px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: none;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-flex: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  transition: .7s;
+}
+.des_navigation_bar:hover {
+  width: 225px;
+}
+
+
+.information_dtls {
+  height: 170px;
+  width: 100%;
+  background: #fff;
+  box-shadow: 4px 4px 9px #868686ab;
+  margin-top: 20px;
+  transition: .5s;
+}
+.information_dtls i {
+  position: absolute;
+  font-size: 125px;
+  opacity: .5;
+  color: #51d2f09c;
+  margin-top: 39px;
+  margin-left: 100px;
+  z-index: 0;
+}
+.information_text h2 {
+  font-family: roboro;
+  text-transform: capitalize;
+  font-size: 30px;
+  text-align: center;
+  padding-top: 20px;
+  font-weight: 600;
+  color: #979797;
+}
+
+.information_text p {
+  font-size: 18px;
+  padding-top: 0px;
+  padding-left: 16px;
+  text-transform: capitalize;
+  font-family: robor;
+  font-weight: 600;
+}
+.information_text {
+  z-index: 10;
+  position: relative;
+}
+.information_dtls:hover {
+  box-shadow: 4px 4px 9px #000;
+}
+.graph_chart {
+  margin-top: 30px;
+  box-shadow: 4px 4px 9px #868686ab;
+}
+.des_navigation_bar:hover .des_manu_bar ul li label {
+  display: block;
+}
+ul li label {
+  position: relative;
+  top: 50%;
+  font-size: 17px;
+  text-transform: capitalize;
+  left: 50%;
+  transform: translate(-30%,-159%);
+  font-family: roboto;
+}
+.des_manu_bar:hover ul li:hover {
+  color: #00e7ff;
+  background: #ddd;
+  padding-left: 14px;
+}
+.des_manu_bar ul li:hover i {
+  color: #00e7ff;
+}
+ul li label {
+  position: relative;
+  top: 50%;
+  font-size: 17px;
+  text-transform: capitalize;
+  left: 50%;
+  transform: translate(-27%,-183%);
+  font-family: roboto;
+  width: 200px;
+  transition: .7s;
+  z-index: 0;
+}
+.des_manu_bar:hover ul li:hover {
+  color: #00e7ff;
+}
+.des_manu_bar ul li:hover i {
+  color: #00e7ff;
+  background: #ddd;
+}
+.des_manu_bar ul {
+  margin-left: -30px;
+}
+
+.graph_indicator {
+  position: absolute;
+  right: 78px;
+  top: 374px;
+  font-size: 20px;
+  font-family: roboto;
+  text-transform: capitalize;
+}
+.graph {
+  margin-top: 50px;
+}
+.graph_indicator p span {
+  height: 40px;
+  width: 80px;
+  display: inline-block;
+  position: relative;
+  top: 13px;
+}
+.graph_user_span {
+  background: blue;
+}
+.graph_post_span {
+  background: green;
+}
+.graph {
+  margin-top: 50px;
+}
+
+.graph_header {
+  height: 60px;
+}
+.graph_header h4 {
+  text-align: center;
+  margin-top: 10px;
+  font-size: 25px;
+  text-transform: capitalize;
+  font-family: roboto;
+  color: #0800ff;
+  width: 36%;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-70%);
+  padding-bottom: 9px;
+  border-bottom: 7px double gray;
+}

@@ -1,0 +1,112 @@
+.checkbox span {
+  font-size: 14px;
+  font-weight: 400;
+}
+.checkbox label {
+  font-size: 16px;
+  font-weight: 600;
+}
+.accordion-header button {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+/* singel post css */
+
+.singel_post {
+  margin-left: 20px;
+  margin-bottom: 20px;
+  border: 1px solid transparent;
+  transition: .5s;
+  height: 355px;
+  max-height: 355px;
+  overflow: hidden;
+  margin-top: 20px;
+  border: 1px solid #fff;
+  box-shadow: 1px 2px 17px #d0d0d0;
+  font-size: 23px;
+}
+.post_ing {
+  width: 150px;
+  position: relative;
+  top: 0%;
+  left: 50%;
+  transform: translate(-50%,0%);
+  overflow: hidden;
+  padding-top: 21px;
+}
+.singel_book_info {
+  margin-top: 13px;
+  overflow-x: hidden;
+  width: 200px;
+  background: #80808030;
+  margin-left: 10px;
+  padding-left: 27px;
+  padding-top: 10px;
+}
+.post_ing img {
+  height: 190px;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,0%);
+}
+.s_book_name {
+  font-size: 18px;
+  text-transform: capitalize;
+  color: #000;
+  font-weight: 500;
+  font-family: roboto;
+  text-decoration: none;
+  height: 25px;
+  width: 22vw;
+  line-break: auto;
+}
+.s_writer_name {
+  font-size: 17px;
+  text-transform: capitalize;
+  color: #464545;
+  font-family: roboto;
+}
+.s_book_price {
+  color: black;
+  font-size: 20px;
+  text-transform: capitalize;
+  font-weight: 600;
+}
+.singel_post a {
+  text-decoration: none;
+}
+.singel_book_info p {
+  margin-bottom: 10px;
+}
+.singel_post:hover {
+  border: 1px solid #c8c8c8;
+  box-shadow: 1px 2px 17px;
+}
+.accordion-body {
+  padding: 1rem 1.25rem;
+  max-height: 341px;
+  overflow-y: auto;
+}
+.s_book_ajex {
+  display: none;
+}
+.pagination li button {
+  background: none;
+  border: navajowhite;
+  padding: 0;
+}
+#pagination_ajex li {
+  padding: 0;
+}
+#pagination_ajex li button {
+  background: #09bee8;
+  border: 1px solid #09bee8;
+}
+#pagination_ajex li:first-child {
+  border-radius: 5px 0 0 5px;
+}
+.home_page {
+  margin-top: 87px !important;
+}

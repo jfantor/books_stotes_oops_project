@@ -1,0 +1,138 @@
+html a{
+  text-decoration: none;
+}
+html a:hover{
+  text-decoration: none;
+}
+
+.brand-wrap .logo {
+  height: 65px;
+  width: 181px;
+  position: relative;
+  left: 26%;
+}
+#search_button {
+  width: 27vw;
+  height: 45px;
+}
+.input-group-append .btn.btn-primary {
+  position: absolute;
+  height: 45px;
+  width: 70px;
+}
+#input_serch {
+  width: 80%;
+}
+
+.search.ms-5 {
+  margin-top: 2px;
+}
+.section-header {
+  background: #15bbab;
+  position: fixed;
+  width: 100%;
+  z-index: 30;
+  top: 0;
+}
+
+.user_profile a img {
+  height: 50px;
+  display: inline-block;
+  width: 50px;
+  border-radius: 50px;
+  margin-right: 20px;
+}
+.user_profile a p {
+  display: inline-block;
+  font-size: 18px;
+  text-transform: capitalize;
+  color: #fff;
+  font-weight: 700;
+}
+.user_profile {
+  width: 100%;
+  right: 0;
+  position: relative;
+}
+.sign_up {
+  background: #337ab7;
+  border-radius: 50px 0 0 50px;
+}
+
+.pagination {
+  justify-content: center;
+  color: #fff;
+}
+.pagination li {
+  padding: 5px 15px;
+  background: #09bee8;
+  margin: 5px;
+}
+.pagination li:first-child {
+  border-radius: 5px 0 0 5px;
+}
+.pagination li:last-child {
+  border-radius: 0 5px 5px 0;
+}
+.pagination li a {
+  color: #040404;
+}
+.pagination li:hover {
+  background: #057c97;
+}
+
+.active {
+  background: #00566a !important;
+}
+.active a {
+  color: #fff !important;
+}
+a {
+  text-decoration: none;
+}
+
+.books_text {
+  font-size: 30px;
+  font-weight: 700;
+  color: #1e9ce8;
+}
+.f_logo {
+  font-size: 80px;
+  text-transform: capitalize;
+  color: #0027bf;
+}
+.store_text {
+  font-size: 30px;
+  font-weight: 700;
+  position: relative;
+  top: 29px;
+  color: #a40707;
+}
+.l_logo {
+  font-size: 100px;
+  color: #6b0391;
+}
+
+.navbar-brand p {
+  font-family: roboto;
+  position: relative;
+  bottom: 15px;
+}
+.navbar-brand {
+  position: absolute;
+  top: -32px;
+  left: 3px;
+}
+#pagination_ajex li button {
+  padding: 5px 15px;
+  color: #fff;
+}
+#pagination_ajex li button :hover {
+  background-color:#00566a ;
+}
+#pagination_ajex li:last-child button {
+  border-radius: 0px 6px 6px 0px;
+}
+#pagination_ajex li:first-child button {
+  border-radius: 6px 0 0 6px;
+}

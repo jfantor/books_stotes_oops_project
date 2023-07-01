@@ -1,0 +1,501 @@
+.singel_post_information {
+  margin-top: 75px;
+  background: #f1f2f4;
+}
+.full_img img {
+  height: 440px;
+  position: relative;
+  left: 50%;
+  transform: translate(-50%);
+}
+/* .full_size_img_info:hover {
+  transform: scale(1.5);
+} */
+/* .full_size_img_info {
+  transition: .6s;
+} */
+.book_name_info {
+  font-size: 35px;
+  font-family: roboto;
+  text-transform: capitalize;
+}
+.side_bar_list_item a{
+    position: relative;
+    right: 0px;
+    background: #ecebebf5;
+    height: 90px;
+    display: inline-block;
+    top: 12px;
+    width: 20vw;
+    margin-bottom: 10px;
+    margin-left: -5px;
+}
+.side_bar_book_img{
+    display: inline-block;
+    left: 6px;
+    position: relative;
+    bottom: -2px;
+    height: 80px;
+    width: 67px;
+    margin-bottom: 100px;
+}
+.side_bar_books_des{
+    display: inline-block;
+    margin-left: 17px;
+    width: 184px;
+    background: #eaeaea;
+    z-index: 10;
+    position: relative;
+    overflow-x: hidden;
+    margin-bottom: 4px;
+}
+.side_bar_books_name{
+    font-size: 18px;
+    text-transform: capitalize;
+    color: #000;
+}
+.side_bar_writer_name{
+    font-size: 16px;
+    margin-left: 0px;
+    text-transform: capitalize;
+    color: #626262;
+}
+.side_bar_book_price{
+    font-size: 16px;
+    margin-left: 0px;
+    text-transform: capitalize;
+    color: #c10000;
+}
+
+.side_bar_books_des p {
+    margin-top: 0px;
+    margin-bottom: 4px;
+    width: 500px;
+}
+.side_bar_title {
+  font-size: 30px;
+  text-transform: capitalize;
+  font-family: robo;
+  padding-bottom: 6px;
+  border-bottom: 2px solid gray;
+  width: 96%;
+  text-align: center;
+}
+.side_bar_list_item {
+ overflow-y: auto;
+ height: 62vh;
+ scroll-behavior: smooth;
+ margin-left: -5px;
+}
+.containers {
+  margin-top: 20px;
+  background: #fff;
+  padding-bottom: 20px;
+}
+
+.book_deteils_information {
+  padding-top: 12px;
+}
+.full_img {
+  border: 1px solid #808080a8;
+  height: 440px;
+  margin-left: 10px;
+  border-radius: 5px;
+  width: 320px;
+  overflow: hidden;
+  transition: .6s;
+  z-index: 20;
+  position: relative;
+}
+.full_img:hover {
+  transform: scale(1.5);
+  margin-top: -7px;
+  z-index: 40;
+}
+.book_writer_name_info {
+  font-size: 20px;
+  text-transform: capitalize;
+  font-family: roboto;
+  text-decoration: none;
+}
+.book_writer_name_info span a:hover {
+  text-decoration: none;
+}
+.price_of_book span {
+  color: #d00000;
+}
+.price_of_book {
+  font-size: 30px;
+  text-transform: capitalize;
+  font-family: roboto;
+}
+.side_bar_related_book {
+  background: #ccccccbd;
+  position: relative;
+  left: -29px;
+  top: 19px;
+  height: 471px;
+  padding-left: 20px;
+  width: 300px;
+  overflow-y: hidden;
+}
+.call {
+  font-size: 20px;
+  text-transform: capitalize;
+  font-family: roboto;
+  padding: 5px 11px;
+  width: 140px;
+  background: #5ef7f7;
+  text-align: center;
+  color: #000;
+  margin-top: 50px;
+  border-radius: 5px;
+}
+
+.chat_btn {
+  display: inline-block;
+}
+.call_btn {
+  display: inline-block;
+  text-decoration: none;
+  margin-left: 56px;
+  margin-right: 20px;
+}
+.chat {
+  font-size: 20px;
+  text-transform: capitalize;
+  font-family: roboto;
+  padding: 5px 11px;
+  width: 140px;
+  background: #0fbb22;
+  text-align: center;
+  color: #000;
+  margin-top: 50px;
+  border-radius: 5px;
+}
+
+.call_btn:hover {
+  text-decoration: none;
+}
+.chat_btn:hover {
+  text-decoration: none;
+}
+
+.book_spacipucation {
+  margin-top: 20px;
+  background: #FFFFFF;
+  box-shadow: 0px 4px 6px -3px #9c9c9c;
+  border-radius: 3px;
+  padding: 20px;
+  padding: 30px;
+}
+
+.book_spacipication_header h2 {
+  font-size: 30px;
+  text-transform: capitalize;
+  font-family: roboto;
+}
+.details_manu ul {
+  display: -webkit-flex;
+  display: -moz-box;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  flex-wrap: wrap;
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+  border-bottom: 1px solid #dee2e6;
+}
+.details_manu ul li {
+  /* margin-bottom: -2px; */
+  margin-bottom: -108px;
+  font-size: 18px;
+  text-transform: capitalize;
+  font-family: roboto;
+  padding: 1px 17px;
+  border-bottom: transparent;
+  position: absolute;
+  bottom: 30px;
+  display: block;
+  margin-left: 10px;
+  cursor: pointer;
+}
+.details_manu {
+  margin-top: 58px;
+}
+.book_spacipication_header {
+  position: relative;
+  bottom: 30px;
+}
+
+.description_table tbody tr {
+  border-bottom: 1px solid gray;
+  height: 40px;
+}
+.description_table {
+  width: 100%;
+  border: 1px solid gray;
+  margin-top: 32px;
+}
+.td_name {
+  width: 200px;
+  padding-left: 25px;
+  background: #f1f2f4;
+  border-right: 1px solid gray;
+  font-size: 18px;
+  text-transform: capitalize;
+  font-family: roboto;
+}
+.td-des {
+  font-size: 19px;
+  padding-left: 30px;
+  text-transform: capitalize;
+  font-family: roboto;
+}
+#book_info_tab {
+  margin-left: 0px;
+}
+#book_des_tab {
+  margin-left: 71px;
+}
+#writer_tab {
+  margin-left: 176px;
+}
+.active_manu{
+  padding-bottom: 10px;
+  padding-top: 5px;
+  background: #fff;
+  border-left: 1px solid #dee2e6;
+  border-right: 1px solid #dee2e6;
+  border-top: 5px solid green;
+  border-radius: 5px 5px 0px 0px;
+  margin-bottom: -2px;
+  color:green;
+}
+
+.descrioption_of_book {
+  width: 90%;
+  text-align: justify;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,20%);
+  font-family: roboto;
+  display: none;
+  margin-top: 35px;
+}
+#description_of_book p {
+  font-size: 17px;
+  font-weight: 300;
+  line-height: 20px;
+  color: #646464;
+}
+
+.writer_img_section img {
+  height: 140px;
+  width: 140px;
+  border-radius: 50%;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-25%,18%);
+}
+.writer_info_details h3 {
+  font-size: 35px;
+  text-transform: capitalize;
+  font-family: roboto;
+  font-weight: 600;
+}
+.writer_info_details p {
+  font-size: 18px;
+  text-align: justify;
+  font-family: roboto;
+}
+.writer_deteils_info {
+  display: none;
+  margin-top: 35px;
+}
+
+
+.description_table tr:nth-child(odd) {
+  background: #e8e8e8;
+}
+
+/* ---------------------------------------
+---------------profile.css-----------------
+------------------------------------------ */
+
+
+.my_singel_post_img img {
+  height: 190px;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,0%);
+}
+.my_singel_post_img {
+  width: 150px;
+  position: relative;
+  top: 0%;
+  left: 50%;
+  transform: translate(-50%,0%);
+  overflow: hidden;
+  padding-top: 21px;
+}
+.my_post_details {
+  margin-left: 52px;
+  margin-top: 16px;
+  overflow-x: hidden;
+  width: 191px;
+}
+#my_singel_post {
+  margin-left: 20px;
+  margin-bottom: 20px;
+  border: 1px solid transparent;
+  transition: .5s;
+  height: 355px;
+  max-height: 355px;
+  overflow: hidden;
+  margin-top: 20px;
+  border: 1px solid #fff;
+  box-shadow: 1px 2px 17px #d0d0d0;
+}
+.my_book_name {
+  font-size: 18px;
+  text-transform: capitalize;
+  color: #000;
+  font-weight: 500;
+  font-family: roboto;
+}
+.my_book_writer_name {
+  font-size: 17px;
+  text-transform: capitalize;
+  color: #464545;
+  font-family: roboto;
+}
+.my_book_price {
+  color: black;
+  font-size: 20px;
+  text-transform: capitalize;
+  font-weight: 600;
+}
+.my_book_price span {
+  color: #c60505;
+}
+#my_singel_post a:hover {
+  text-decoration: none;
+}
+#my_singel_post:hover {
+  border: 1px solid #c8c8c8;
+  box-shadow: 1px 2px 17px;
+}
+.my_post_section {
+  margin-top: 30px;
+  background: white;
+}
+.heading.border-bottom.pb-4 {
+  background: white;
+}
+#my_post{
+  background-color: transparent;
+}
+
+
+/* email section ----------------- */
+
+.chate_section_or_mail {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  background: #222222ab;
+  z-index: 100;
+}
+.w3-black, .w3-hover-black:hover {
+  color: #fff !important;
+  background-color: #0d0d0df2 !important;
+  font-weight: 1000;
+  font-size: 20px;
+  padding: 1px 6px 4px 4px !important;
+}
+
+.container.email_con {
+  width: 50%;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-100%,-50%);
+  background: #fff;
+}
+.contact_by_messanger {
+  height: 60px;
+}
+.sand_email label {
+  font-size: 20px;
+  text-transform: capitalize;
+  font-family: roboto;
+  width: 400px;
+  display: flex;
+  position: relative;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%);
+  border-bottom: 2px solid gray;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+.email_input input {
+  height: 40px;
+}
+.sand_email input {
+  width: 90%;
+  position: relative;
+  transform: translate(-50%);
+  top: 50%;
+  left: 50%;
+  font-size: 18px;
+  font-family: roboto;
+  text-transform: capitalize;
+  padding-left: 20px;
+}
+.subject input {
+  height: 40px;
+}
+.email_conseft input {
+  height: 200px;
+}
+.email_submit {
+  margin-top: 25px;
+  margin-bottom: 25px;
+  background: green;
+  border: 1px solid green;
+  transition: .5s;
+  border-radius: 3px;
+  color: #fff;
+  width: 35% !important;
+  height: 45px;
+  text-align: center;
+}
+.email_submit:hover {
+  background: #fff;
+  color: green;
+}
+.chate_section_or_mail {
+  display: none;
+}
+.close_email {
+  position: relative;
+  left: 96%;
+  top: 8px;
+  padding: 10px 15px;
+  background: red;
+  color: #fff;
+  border: 1px solid #bf0606;
+  border-radius: 3px;
+  transition: .6s;
+}
+.close_email:hover {
+  color: #c80202;
+  background: #fff;
+}

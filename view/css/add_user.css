@@ -1,0 +1,44 @@
+
+.add_header {
+    width: 100vw;
+    position: relative;
+    left: -98px;
+    text-align: center;
+    background: #02ae96;
+    height: 70px;
+    top: -21px;
+  }
+  body {
+    background: #03b0885e;
+    overflow-x: hidden;
+    font-size: 62.5%;
+  }
+  .admin-heading {
+    font-size: 4.5rem;
+    padding-top: .8rem;
+    text-transform: capitalize;
+    font-family: roboto;
+    font-weight: 600;
+    color: #fff;
+  }
+  .form-group label {
+    font-size: 1.8rem;
+  }
+  .form-group input {
+    height: 4.5rem;
+    font-size: 1.7rem;
+    text-transform: capitalize;
+    padding-left: 2rem;
+  }
+  .form-group select {
+    height: 4.5rem;
+    font-size: 1.7rem;
+  }
+  .add_user {
+    width: 34%;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%);
+    font-size: 1.7rem;
+  }
